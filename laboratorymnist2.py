@@ -13,7 +13,7 @@ def show_image(img):
     plt.imshow(Image.fromarray(img).convert('RGB')) #Отрисовка картинки .convert('RGB')
     plt.show()
 
-model_2d = load_model('/app/laboratory2/mnist_2d.h5')    
+model_2d = load_model('/app/laboratory2/model_emnist.h5')    
 file_path = '/app/laboratory2/your_file_image.png'
 picture_all = '/app/laboratory2/realtrack1.jpg'
 
